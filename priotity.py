@@ -60,8 +60,8 @@ def classify_urgency(ipc_section):
 # ✅ Function to Send Complaint via Twilio
 TWILIO_SID = "your_twilio_sid"
 TWILIO_AUTH_TOKEN = "your_twilio_auth_token"
-TWILIO_PHONE = "+1234567890"
-RECEIVER_PHONE = "+919876543210"  # Police station number
+TWILIO_PHONE = ""
+RECEIVER_PHONE = ""  # Police station number
 
 def send_sms(complaint, urgency, ipc_section):
     try:
